@@ -5,11 +5,11 @@ import random
 import sys
 def pas(num,time):
     while time:
-        print(''.join(random.choices(string.ascii_lowercase+string.ascii_letters,k=num)))
+        print(''.join(random.choices(string.digits+string.ascii_letters,k=6)))
         time -= 1
 
 
-pas(8,6)
+pas(int(sys.argv[1]),int(sys.argv[2])
 
 
 
